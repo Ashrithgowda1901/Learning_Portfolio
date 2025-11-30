@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashrith - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            text-decoration: none;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none !important;
+        }
+
+        nav ul li a:hover {
+            color: rgb(177, 177, 251);
+            font-size: 1.02rem;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .firstSection>div {
+            margin: 23px 0;
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .textGrey {
+            color: gray;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 70vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            height: 100px;
+            width: 1px;
+        }
+
+        .vertical img {
+            height: 23px;
+            position: relative;
+            bottom: 26px;
+            right: 10px;
+        }
+
+        .vertical .verticle-title {
+            position: relative;
+            top: 80px;
+            width: 210px;
+        }
+
+        .vertical .verticle-desc {
+            position: relative;
+            top: 80px;
+            width: 210px;
+            color: gray;
+            margin:5px 0px;
+            font-size: 12px;
+            text-align: left;
+        }
+        footer{
+            background-color: rgb(13, 13, 44);
+            font-size: 20px;
+        }
+        .footer{
+            display: flex;
+            padding:20px 122px ;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        footer .footer-right{
+            color: gray;
+            text-align: center;
+            padding: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Ashrith Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ashrith</span>
+                <div>and I am a passionate</div>
+                <span id="element" class="purple"></span>
+            </div>
+            <div class="rightSection">
+                <img src="Bg1.png" alt="Developer" width="80%">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textGrey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero provident suscipit
+                        fugiat distinctio, cum laudantium iusto vitae at laborum qui voluptates voluptas sapiente
+                        eveniet.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="frontend.png" alt="">
+                    <div class="verticle-title">
+                        FrontEnd Developer(2012-2016)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero provident suscipit
+                        fugiat distinctio, cum laudantium iusto vitae at laborum qui voluptates voluptas sapiente
+                        eveniet.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="fullstack.png" alt="">
+                    <div class="verticle-title">
+                        Full Developer(2016-2020)
+                    </div>
+                    <div class="verticle-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero provident suscipit
+                        fugiat distinctio, cum laudantium iusto vitae at laborum qui voluptates voluptas sapiente
+                        eveniet.
+                    </div>
+                </div>
+                
+
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Ashrith's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Content</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Content</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Content</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right"> 
+            copyright 	&#169; ashrithportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Web Designer'],
+            typeSpeed: 50,      // typing speed
+            backSpeed: 30,      // backspacing speed
+            backDelay: 1000,    // pause before backspacing
+            loop: true          // repeat strings in loop
+        });
+    </script>
+</body>
+
+
+
+</body>
+
+</html>
